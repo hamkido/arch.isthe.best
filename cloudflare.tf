@@ -39,7 +39,7 @@ resource "cloudflare_page_rule" "archisthebest" {
   actions {
     forwarding_url {
       url = "https://wiki.archlinux.org/title/arch_is_the_best"
-      status_code = 301
+      status_code = 302
    }
   }
 }
