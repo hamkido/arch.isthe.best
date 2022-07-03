@@ -22,7 +22,6 @@ resource "cloudflare_record" "test_isthe_best" {
   name    = "test"
   value   = "192.0.2.1"
   type    = "A"
-  proxied = true
 }
 
 resource "cloudflare_record" "arch_isthe_best" {
